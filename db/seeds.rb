@@ -23,3 +23,5 @@ end
   order.products << Product.find(Product.all.collect(&:id).sample)
 end
 
+
+Product.create(name: "Testaprod", price: "3.99", inventory: 12, description: "This is a great thing with many thangs")
